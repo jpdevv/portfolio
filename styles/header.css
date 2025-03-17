@@ -1,0 +1,56 @@
+header {
+    padding: 20px;
+}
+
+header > .container {
+    justify-content: space-between;
+}
+
+.logo {
+    user-select: none;
+}
+
+.logo > h1 {
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.logo > h1 > strong {
+    color: var(--logo-text-color);
+    font-weight: 500;
+}
+
+.navbar > ul {
+    display: flex;
+    gap: 16px;
+    font-size: 14px;
+}
+
+.navbar > ul > li:hover {
+    transform: scale(var(--hover-scale));
+    text-shadow: 0 0 10px var(--navbar-hover-shadow);
+    transition: transform var(--transitions) ease-in;
+}
+
+/* =========================
+   Configuration Settings
+=========================== */
+.config {
+    display: flex;
+    gap: 5px;
+}
+
+.config > div {
+    border: solid 1px var(--config-border-color);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    align-content: center;
+}
+
+.config > div:hover {
+    transform: scale(var(--hover-scale));
+    box-shadow: 0 0 10px var(--button-box-shadow);
+    transition: transform var(--transitions) ease-in;
+}

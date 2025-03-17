@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* =========================
+   Define Cores como Variáveis
+=========================== */
+:root {
+    --primary-background: #181818;
+    --secondary-background: #212121;
+    --highlight-color: rgba(255, 0, 0, 0.8);
+    --logo-text-color: #707070;
+    --text-color: #707070;
+    --navbar-hover-shadow: rgba(255, 255, 255, 0.2);
+    --config-border-color: white;
+    --button-box-shadow: rgba(255, 255, 255, 0.2);
+    --section-text-light: rgba(255, 255, 255, 0.6);
+    --section-text-medium: rgba(255, 255, 255, 0.5);
+    --section-border-color: rgba(255, 255, 255, 0.1);
+    --button-border-color: white;
+    --hover-scale: 1.08;
+    --text-color-general: #fff;
+    --cursor-border: white;
+    --transitions: .3s;
+}
+
+.light-theme {
+    transition: all var(--transitions);
+    --primary-background: #f8f9fa;
+    --secondary-background: #dee2e6;
+    --highlight-color: #ff4d4d;
+    --logo-text-color: #222831;
+    --navbar-hover-shadow: rgba(0, 0, 0, 0.15);
+    --config-border-color: #444;
+    --button-box-shadow: rgba(0, 0, 0, 0.2);
+    --section-text-light: rgba(0, 0, 0, 0.7);
+    --section-text-medium: rgba(0, 0, 0, 0.85);
+    --section-border-color: rgba(0, 0, 0, 0.15);
+    --button-border-color: #444;
+    --text-color-general: black;
+    --cursor-border: black;
+}
+
+.dark-theme {
+    transition: all var(--transitions);
+    --primary-background: #181818;
+    --secondary-background: #212121;
+    --highlight-color: rgba(255, 0, 0, 0.8);
+    --logo-text-color: #707070;
+    --navbar-hover-shadow: rgba(255, 255, 255, 0.2);
+    --config-border-color: white;
+    --button-box-shadow: rgba(255, 255, 255, 0.2);
+    --section-text-light: rgba(255, 255, 255, 0.6);
+    --section-text-medium: rgba(255, 255, 255, 0.5);
+    --section-border-color: rgba(255, 255, 255, 0.04);
+    --button-border-color: white;
+    --text-color-general: #fff;
+    --cursor-border: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "JetBrains Mono", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    color: var(--text-color-general);
+}
+
+body, html {
+    background-color: var(--primary-background);
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+}
+
+strong {
+    color: var(--highlight-color);
+}
+
+main, header {
+    width: 85vw;
+    margin: auto;
+}
+
+.cursor {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid var(--cursor-border);
+    border-radius: 50%;
+    position: fixed;
+    top: -40;
+    left: -40;
+    pointer-events: none;
+    box-shadow: 0 0 20px var(--button-box-shadow);
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform var(--transitions) ease-out, width var(--transitions) ease-out, height var(--transitions) ease-out;
+    z-index: 1;
+}
+
+.cursor-hover {
+    width: 20px;
+    height: 20px;
+    transform: translate(-50%, -50%) scale(0.5);
+}
+
+.hover:hover {
+    cursor: pointer;
+}

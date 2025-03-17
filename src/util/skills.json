@@ -1,0 +1,74 @@
+{
+    "frontend": {
+        "link": [
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg"
+        ],
+        "name": [
+            "HTML 5",
+            "CSS 3",
+            "JavaScript",
+            "Bootstrap",
+            "React",
+            "Vue.js",
+            "NPM"
+        ]
+    },
+    "backend": {
+        "link": [
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg"
+        ],
+        "name": [
+            "Python",
+            "PHP",
+            "Node.js",
+            "Django"
+        ]
+    },
+    "database": {
+        "link": [
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg"
+        ],
+        "name": [
+            "MySQL",
+            "PostgreSQL",
+            "SQLite"
+        ]
+    },
+    "design": {
+        "link": [
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg"
+        ],
+        "name": [
+            "Figma",
+            "Photoshop",
+            "Canva"
+        ]
+    },
+    "others": {
+        "link": [
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/electron/electron-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
+            "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+        ],
+        "name": [
+            "Electron",
+            "C",
+            "GIT",
+            "Github"
+        ]
+    }
+}

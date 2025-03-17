@@ -1,0 +1,83 @@
+
+
+/* =========================
+   Hero Section Settings
+=========================== */
+main > .container {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero {
+    width: 600px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero > h1 {
+    font-weight: 300;
+    font-size: 35px;
+}
+
+.hero > p {
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.contact-btn {
+    border: solid 1px var(--button-border-color);
+    width: max-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.contact-btn:hover {
+    box-shadow: 0 0 10px var(--button-box-shadow);
+    transform: scale(var(--hover-scale));
+    transition: transform var(--transitions) ease-in;
+}
+
+/* =========================
+   Layout Adjustments
+=========================== */
+main > .container {
+    margin-top: 20vh;
+    padding: 0 50px;
+}
+
+main > .container > .container {
+    gap: 5px;
+}
+
+main > .container > .container > section {
+    background-color: var(--secondary-background);
+    border: solid 1px var(--section-border-color);
+    width: max-content;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 5px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+main > .container > .container > section:hover {
+    transform: scale(var(--hover-scale));
+    transition: transform var(--transitions) ease-in;
+}
+
+main > .container > .container > section > h1 {
+    font-size: 30px;
+    color: var(--section-text-light);
+    font-weight: 100;
+}
+
+main > .container > .container > section > p {
+    font-size: 10px;
+    color: var(--section-text-medium);
+    font-weight: 100;
+}
