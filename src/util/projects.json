@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "title": "Projeto Cordel",
+            "status": "Finalizado",
+            "tools": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg"
+            ],
+            "img": "../src/projects/projeto-cordel.png",
+            "description": "Este projeto é uma estilização web do cordel 'Eu, Algoz de Mim', de Milton Duarte, utilizando HTML e CSS. O design foi inspirado na estética tradicional dos folhetos de cordel, trazendo um layout simples e envolvente que valoriza a poesia.",
+            "link": "https://jpdevv.github.io/projeto-cordel/"
+        },
+        {
+            "title": "Unidades federativas do Brasil por população",
+            "status": "Finalizado",
+            "tools": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg"
+            ],
+            "img": "../src/projects/lista-estados-br.png",
+            "description": "Este projeto apresenta uma tabela estilizada em HTML e CSS com a população das unidades federativas do Brasil, baseada nos dados da Wikipedia. O design foi desenvolvido para ser limpo, organizado e visualmente agradável, destacando as informações de forma clara e intuitiva.",
+            "link": "https://jpdevv.github.io/lista-estados-br/"
+        },
+        {
+            "title": "Layout de Smartphone",
+            "status": "Finalizado",
+            "tools": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg"
+            ],
+            "img": "../src/projects/projeto-social.png",
+            "description": "Este projeto foi desenvolvido durante meus estudos de HTML e CSS com o Professor Gustavo Guanabara (Curso em Vídeo). Trata-se de uma cópia estilizada de um layout de smartphone, onde cada ícone de aplicativo representa um link para minhas redes sociais.",
+            "link": "https://jpdevv.github.io/projeto-social/"
+        },
+        {
+            "title": "Pedido de Namoro Fugitivo",
+            "status": "Finalizado",
+            "tools": [
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg",
+                "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+            ],
+            "img": "../src/projects/pedido.png",
+            "description": "Este projeto divertido foi desenvolvido durante meus estudos de HTML, CSS e JavaScript. Ele simula um pedido de namoro, mas com um toque de humor: ao exibir dois botões 'Sim' e 'Não', o botão de 'Não' começa a fugir do cursor do usuário sempre que ele tenta clicar. Isso garante que a única opção viável seja aceitar o pedido! O projeto combina lógica em JavaScript para manipulação de eventos e estilos dinâmicos em CSS para tornar a experiência interativa e engraçada.",
+            "link": "https://jpdevv.github.io/pedido/"
+        }
+    ]
+}
