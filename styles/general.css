@@ -7,16 +7,18 @@
     --primary-background: #181818;
     --secondary-background: #212121;
     --highlight-color: rgba(255, 0, 0, 0.8);
+    --description-background: #1E1E1E;
     --logo-text-color: #707070;
     --text-color: #707070;
     --navbar-hover-shadow: rgba(255, 255, 255, 0.2);
+    --background-project: rgba(121, 121, 121, 0.2);
     --config-border-color: white;
     --button-box-shadow: rgba(255, 255, 255, 0.2);
     --section-text-light: rgba(255, 255, 255, 0.6);
     --section-text-medium: rgba(255, 255, 255, 0.5);
     --section-border-color: rgba(255, 255, 255, 0.1);
     --button-border-color: white;
-    --hover-scale: 1.08;
+    --hover-scale: 1.03;
     --text-color-general: #fff;
     --cursor-border: white;
     --transitions: .3s;
@@ -26,6 +28,7 @@
     transition: all var(--transitions);
     --primary-background: #f8f9fa;
     --secondary-background: #dee2e6;
+    --description-background: #d1d1d1;
     --highlight-color: #ff4d4d;
     --logo-text-color: #222831;
     --navbar-hover-shadow: rgba(0, 0, 0, 0.15);
@@ -69,7 +72,7 @@
 body, html {
     background-color: var(--primary-background);
     width: 100vw;
-    height: 100vh;
+    height: 100%;
 }
 
 .container {
@@ -83,6 +86,7 @@ strong {
 main, header {
     width: 85vw;
     margin: auto;
+    padding-bottom: 20px;
 }
 
 .cursor {

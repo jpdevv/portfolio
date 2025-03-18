@@ -1,0 +1,41 @@
+main > .container {
+    margin-top: 15vh;
+}
+
+section {
+    display: flex;
+    width: max-content;
+    font-size: 15px;
+    align-items: center;
+    height: min-content;
+    background-color: var(--secondary-background);
+    border: solid 1px var(--section-border-color);
+    padding: 2px 8px;
+    font-weight: 200;
+    border-radius: 4px;
+    margin: auto;
+    align-items: center;
+}
+
+.texts {
+    width: 600px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.texts > .about-texts > h1 {
+    font-size: 15px;
+    color: var(--text-color);
+}
+
+img {
+    width: 250px;
+    height: auto;
+    border-radius: 6px;
+}
+
+a > i {
+    font-size: 20px;
+}

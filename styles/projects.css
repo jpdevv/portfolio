@@ -1,0 +1,109 @@
+main > .container {
+    margin-top: 10vh;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: auto;
+    height: min-content;
+}
+
+.text > h1 {
+    font-size: 15px;
+    color: var(--text-color);
+}
+
+.tools {
+    display: flex;
+    gap: 3px;
+    flex-wrap: wrap;
+    width: 190px;
+}
+
+.tools > img {
+    width: 15px;
+    height: 15px;
+}
+
+.project {
+    width: 400px;
+    font-size: 15px;
+    align-items: center;
+    background-color: var(--secondary-background);
+    border: solid 1px var(--section-border-color);
+    padding: 10px;
+    font-weight: 200;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.project:hover {
+    transform: scale(var(--hover-scale));
+    transition: transform var(--transitions);
+}
+
+.title {
+    display: flex;
+    gap: 5px;
+}
+
+.title > h1, .title > h2 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.title > h2 {
+    background-color: var(--primary-background);
+    color: var(--text-color);
+    width: min-content;
+    font-size: 12px;
+    padding: 3px;
+    border-radius: 3px;
+    height: min-content;
+}
+
+.descripton {
+    background-color: var(--description-background);
+    padding: 10px 5px;
+    border-radius: 6px;
+    height: 100px;
+    overflow: scroll;
+}
+
+.descripton > p {
+    height: 100%;
+    font-size: 11px;
+    text-align: justify;
+}
+
+.top-infos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.img {
+    width: 250px;
+    height: 130px;
+    background-color: var(--primary-background);
+    border-radius: 6px;
+    background-image: url('../src/joao_paulo.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.infos {
+    width: 50%;
+    height: 50%;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: auto;
+    width: 820px;
+}
